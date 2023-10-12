@@ -15,7 +15,6 @@ steps:
     command: 'install'
     artifactoryConnection: 'arti'
     sourceRepo: 'alex-npm-virtual'
-    workingFolder: '/packages'
     collectBuildInfo: true
     threads: '1'
     buildName: '$(Build.DefinitionName)'
